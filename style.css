@@ -107,12 +107,12 @@ input {
 }
 
 .label-button {
-  font-size: 20px;
-  margin-left: 22%;
+  font-size: 30px;
+  margin-left: 20%;
 }
 
 .radio_button, input[type=radio] {
-  margin: 0px 22%;
+  margin: 0px 20%;
   font-size: 12px;
 }
 
@@ -128,7 +128,7 @@ input {
 }
 
 .submit-btn {
-  margin: 2% 40% 20px 20%;
+  margin: 2% 40% 7% 20%;
   background-color: white;
 }
 
@@ -149,7 +149,7 @@ input {
 
 .footer-img {
   height: 50px;
-  width: 50px;
+  /*width: 50px;*/
   margin-top: 2%;
 }
 
