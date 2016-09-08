@@ -44,7 +44,6 @@ input {
   height: 50px;
   margin: 30px 5% 0px 0px;
   display: block;
-  /*padding: 2%;*/
   float: right;
 }
 
@@ -65,43 +64,6 @@ input {
   font-size: 35px;
   margin-top: 120px;
   font-weight: 100;
-}
-
-/* MAIN SECTION STYLES */
-
-.headline {
-  font-size: 40px;
-  text-align: center;
-}
-
-.event-details-section {
-  margin: 5% auto 3% auto;
-  display: block;
-  width: 41em;
-  font-family: roboto;
-  font-weight: 300;
-}
-
-.event-details-section-info-header {
-  font-size: 22px;
-}
-
-.bio-text {
-  padding: 2% 10%;
-}
-
-.bio-text-p {
-  font-size: 17px;
-  font-family: roboto;
-}
-
-.list {
-  list-style: none;
-}
-
-.speaker-section {
-  float: right;
-  margin: -140px 20% 0px 30%;
 }
 
 /* RSVP FORM STYLES */
@@ -158,29 +120,12 @@ input {
 
 .footer-img {
   height: 50px;
-  /*width: 50px;*/
-  margin-top: 2%;
+  margin-top: 25px;
 }
 
 
 @media only screen and (min-width: 900px) {
 
-  .speaker-img {
-    margin-left: 10%;
-  }
-
-  .header-text {
-    font-family: roboto;
-    color: white;
-    text-align: center;
-    font-size: 60px;
-    margin-top: 120px;
-    font-weight: 100;
-  }
-
-  .footer-img {
-    margin-top: 3%;
-  }
 }
 
 
@@ -190,59 +135,14 @@ input {
     background-attachment: initial;
   }
 
-  .speaker-img {
-    margin-right: auto;
-    margin-left: auto;
-    display: block;
-  }
-
-  .headline {
-    font-size: 30px;
-  }
-
-  .event-details-section {
-    width: 39em;
-  }
-
-  .event-details-section-info-header {
-    font-size: 25px;
-  }
-
-  .speaker-section {
-    margin: 0px 15% 0px 20%;
-  }
-
-  .rsvp-btn {
-    margin-top: 35%;
-  }
-
-  .footer-img {
-    margin-top: 4%;
-  }
 }
 
 
-@media only screen and (max-width: 550px) {
+@media only screen and (min-width: 550px) {
 
-  .headline {
-    font-size: 22px;
-  }
 
-  .event-details-section {
-    width: 30em;
-  }
 
-  .bio-text-p {
-    font-size: 15px;
-  }
 
-  .rsvp-btn {
-    margin-top: 45%;
-  }
-
-  .footer-img {
-    margin-top: 5%;
-  }
 }
 
 
