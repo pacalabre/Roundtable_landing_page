@@ -37,7 +37,7 @@ input {
   background-image: url('dark_city_img.jpg');
   height: 400px;
   background-size: cover;
-  background-attachment: fixed;
+  background-attachment: initial;
 }
 
 .waldron-logo {
@@ -73,8 +73,7 @@ input {
   font-family: roboto;
   font-weight: 300;
   font-size: 30px;
-  margin-top: 7%;
-  margin-bottom: 5%;
+  margin: 7% 5% 5% 5%;
 }
 
 .label-button {
@@ -129,10 +128,10 @@ input {
 }
 
 
-@media only screen and (max-width: 650px) {
+@media only screen and (min-width: 650px) {
 
   .header-img {
-    background-attachment: initial;
+    background-attachment: fixed;
   }
 
 }
