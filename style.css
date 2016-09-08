@@ -34,7 +34,7 @@ input[type=radio] {
 
 .header-img {
   background-image: url('dark_city_img.jpg');
-  height: 400px;
+  height: 300px;
   background-size: cover;
   background-attachment: initial;
 }
@@ -53,15 +53,15 @@ input[type=radio] {
 }
 
 .header-text-section {
-  margin-top: 3%;
+  margin-top: 20px;
 }
 
 .header-text {
   font-family: roboto;
   color: white;
   text-align: center;
-  font-size: 35px;
-  margin-top: 120px;
+  font-size: 40px;
+  margin-top: 50px;
   font-weight: 100;
 }
 
@@ -131,11 +131,19 @@ input[type=radio] {
 @media only screen and (min-width: 1100px) {
 
   .header-img {
+    height: 400px;
+  }
+
+  .header-img {
     background-attachment: fixed;
   }
 
   .header-text {
     font-size: 65px;
+  }
+
+  .header-text {
+    margin-top: 120px;
   }
 
   .cpi-logo {
@@ -159,15 +167,16 @@ input[type=radio] {
 @media only screen and (min-width: 675px) and (max-width: 1099px)  {
 
   .header-img {
+    height: 400px;
     background-attachment: fixed;
   }
 
   .header-text {
-    font-size: 50px;
+    margin-top: 120px;
   }
 
-  .header-text-section {
-    margin-top: 5%;
+  .header-text {
+    font-size: 50px;
   }
 
   .cpi-logo {
@@ -189,6 +198,15 @@ input[type=radio] {
 
 
 @media only screen and (min-width: 550px) and (max-width: 674px) {
+
+  .header-img {
+    height: 400px;
+  }
+
+  .header-text {
+    margin-top: 120px;
+  }
+
   .header-text {
     font-size: 40px;
   }
@@ -211,6 +229,14 @@ input[type=radio] {
 
 @media only screen and (min-width: 450px) and (max-width: 549px) {
 
+  .header-img {
+    height: 400px;
+  }
+
+  .header-text {
+    margin-top: 120px;
+  }
+
   .cpi-logo {
     height: 53px;
   }
@@ -223,5 +249,31 @@ input[type=radio] {
   .rsvp-title, .label-button, .radio_button, .form-group-label,
   .textInput, .btn  {
     font-size: 22px;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  .cpi-logo {
+    display: block;
+    float: none;
+    margin: 20px auto 0px auto;
+    height: 10%;
+  }
+
+  .waldron-logo {
+    display: block;
+    float: none;
+    margin: 40px auto 0px auto;
+    height: 10%;
+  }
+
+  .header-text {
+    margin-top: 60px;
+    font-size: 20px;
+  }
+
+  .rsvp-title, .label-button, .radio_button, .form-group-label,
+  .textInput, .btn {
+    font-size: 12px;
   }
 }
