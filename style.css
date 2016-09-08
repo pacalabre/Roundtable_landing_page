@@ -19,7 +19,7 @@ label, input {
 }
 
 label {
-  font-size: 17px;
+  font-size: 20px;
   font-family: roboto;
   font-weight: 100;
   font-size: 30px;
@@ -41,16 +41,17 @@ input {
 }
 
 .waldron-logo {
-  height:150px;
-  margin: 15px 20% 0px 0px;
+  height: 50px;
+  margin: 30px 5% 0px 0px;
   display: block;
-  padding: 2%;
+  /*padding: 2%;*/
   float: right;
 }
 
 .cpi-logo {
   float: left;
-  margin: 65px 0px 0px 20%;
+  margin: 46px 0px 0px 5%;
+  height: 35px;
 }
 
 .header-text-section {
@@ -61,7 +62,7 @@ input {
   font-family: roboto;
   color: white;
   text-align: center;
-  font-size: 60px;
+  font-size: 35px;
   margin-top: 120px;
   font-weight: 100;
 }
@@ -162,14 +163,19 @@ input {
 }
 
 
-@media only screen and (max-width: 900px) {
+@media only screen and (min-width: 900px) {
 
   .speaker-img {
     margin-left: 10%;
   }
 
   .header-text {
-    font-size: 25px;
+    font-family: roboto;
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    margin-top: 120px;
+    font-weight: 100;
   }
 
   .footer-img {
@@ -242,43 +248,4 @@ input {
 
 @media only screen and (max-width: 450px) {
 
-  label {
-    font-size: 20px;
-  }
-
-  .header-img {
-    width: 111%;
-  }
-
-  .rsvp-btn {
-    margin-top: 65%;
-  }
-
-  .header-text {
-    font-size: 18px;
-  }
-
-  .headline {
-    font-size: 20px;
-  }
-
-  .event-details-section {
-    width: 25em;
-  }
-
-  .event-details-section-info-header {
-    font-size: 20px;
-  }
-
-  .event-details-section-info {
-    font-size: 15px;
-  }
-
-  .page-title {
-    font-size: 30px;
-  }
-
-  .bio-text-p {
-    font-size: 15px;
-  }
 }
