@@ -41,7 +41,7 @@ input[type=radio] {
 
 .waldron-logo {
   height: 50px;
-  margin: 30px 5% 0px 0px;
+  margin: 28px 5% 0px 0px;
   display: block;
   float: right;
 }
@@ -131,28 +131,84 @@ input[type=radio] {
 }
 
 
-@media only screen and (min-width: 900px) {
-
-}
-
-
-@media only screen and (min-width: 650px) {
+@media only screen and (min-width: 1100px) {
 
   .header-img {
     background-attachment: fixed;
   }
 
+  .header-text {
+    font-size: 65px;
+  }
+
+  .cpi-logo {
+    height: 80px;
+    margin-left: 20%;
+  }
+
+  .waldron-logo {
+    height: 100px;
+    margin-right: 20%;
+    margin-top: 20px;
+  }
 }
 
 
-@media only screen and (min-width: 550px) {
+@media only screen and (min-width: 675px) and (max-width: 1099px)  {
 
+  .header-img {
+    background-attachment: fixed;
+  }
 
+  .header-text {
+    font-size: 50px;
+  }
+
+  .header-text-section {
+    margin-top: 5%;
+  }
+
+  .cpi-logo {
+    height: 60px;
+    margin-left: 12%;
+  }
+
+  .waldron-logo {
+    height: 85px;
+    margin-right: 12%;
+    margin-top: 15px;
+  }
 
 
 }
 
 
-@media only screen and (max-width: 450px) {
+@media only screen and (min-width: 550px) and (max-width: 674px) {
+  .header-text {
+    font-size: 40px;
+  }
+
+  .cpi-logo {
+    height: 55px;
+  }
+
+  .waldron-logo {
+    height: 75px;
+    margin-top: 20px;
+  }
+
+}
+
+
+@media only screen and (min-width: 450px) and (max-width: 549px) {
+
+  .cpi-logo {
+    height: 53px;
+  }
+
+  .waldron-logo {
+    height: 70px;
+    margin-top: 24px;
+  }
 
 }
